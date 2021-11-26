@@ -75,7 +75,11 @@ After you run the application, a config file will be created. Usually you do not
 [go]: https://go.dev/
 
 ## Connect the sensor to the esp8266
-TODO
+<details>
+<summary>Click here to see the Diagram</summary>
+
+![diagram](docs/pictures/d1Mini_switch_with_resistor.png)
+</details>
 
 &nbsp;
 # Tips and Tricks
