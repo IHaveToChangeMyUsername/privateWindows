@@ -78,7 +78,7 @@ After you run the application, a config file will be created. Usually you do not
 <details>
 <summary>Click here to see the Diagram</summary>
 
-![diagram](docs/pictures/d1Mini_switch_with_resistor.png)
+![diagram](docs/pictures/d1Mini_switch.png)
 </details>
 
 &nbsp;

@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-static const char *stateA = "open"; // text to send, if switch changes from closed to open
-static const char *stateB = "closed"; // text to send, if switch changes from open to closed
+static const char *stateA = "closed"; // text to send, if switch changes from closed to open
+static const char *stateB = "open"; // text to send, if switch changes from open to closed
 static const uint8_t INPUT_PIN = D5; // pin of the switch
 static const int WS_PORT = 80; // port for the websocket server
 
@@ -61,7 +61,7 @@ void setup() {
 
   setup_wifi();
 
-  pinMode(INPUT_PIN, INPUT);
+  pinMode(INPUT_PIN, INPUT_PULLUP);
   state = digitalRead(INPUT_PIN) == HIGH;
 
   webSocket.begin();
